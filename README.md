@@ -20,16 +20,24 @@ https://docs.anaconda.com/anaconda/install/linux/
 
 #### Activate environtment:
 conda create -n Fin_Lab python=3.6
+
+
 conda activate
 
 #### Link your environment with Jupyter: 
 pip install ipykernel
+
+
 python -m ipykernel install --user --name=Fin_Lab
 
 #### Packages from github:
 
 git clone https://github.com/piEsposito/blitz-bayesian-deep-learning.git
+
+
 cd blitz-bayesian-deep-learning
+
+
 pip install .
 
 
