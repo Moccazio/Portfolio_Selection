@@ -19,35 +19,24 @@ https://docs.anaconda.com/anaconda/install/linux/
 ## 2. Set Up the Virtual Environment via Terminal 
 
 #### Activate environtment:
-conda create -n Fin_Lab python=3.6
+- conda create -n Fin_Lab python=3.6
 
 
-conda activate
+- conda activate Fin_Lab 
 
 #### Link your environment with Jupyter: 
-pip install ipykernel
+- pip install ipykernel
 
 
-python -m ipykernel install --user --name=Fin_Lab
+- python -m ipykernel install --user --name=Fin_Lab
 
-#### Packages from github:
-
-git clone https://github.com/piEsposito/blitz-bayesian-deep-learning.git
-
-
-cd blitz-bayesian-deep-learning
-
-
-pip install .
 
 
 ## 3. Install Packages
 
 #### Core data analytics
 
-Package Name:
-
-numpy 
+numpy
 - Matrix operations
 
 scipy
@@ -63,8 +52,6 @@ matplotlib
 - Data visualization
 
 #### Finance
-
-Package Name:
 
 pandas_datareader
 - Reading financial data from the web
@@ -86,7 +73,6 @@ prophet
 
 #### Data visualization
 
-Package Name:
 
 seaborn
 - Colorful data visualization
@@ -105,7 +91,6 @@ plotnine
 
 #### Machine & deep learning
 
-Package Name:
 
 scikit-learn
 - Core machine learning package
@@ -127,8 +112,6 @@ Tensorflow
 
 #### Natural language processing (NLP)
 
-Package Name:
-
 nltk
 - General NLP tasks
 
@@ -143,6 +126,12 @@ scrapy
 
 spacy
 - Production-level NLP library
+
+#### Packages from github:
+
+- git clone https://github.com/piEsposito/blitz-bayesian-deep-learning.git
+- cd blitz-bayesian-deep-learning
+- pip install .
 
 #### Favourite JupyterLab extensions
 
