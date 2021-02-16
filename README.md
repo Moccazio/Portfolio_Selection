@@ -1,9 +1,9 @@
 # Fin_Lab
-Coding for finance
 
-# Setup
+## Setup
 
 ## 1. Install Anaconda
+
 #### Windows:
 https://docs.anaconda.com/anaconda/install/windows/
 
@@ -18,148 +18,177 @@ https://docs.anaconda.com/anaconda/install/linux/
 
 ## 2. Set Up the Virtual Environment via Terminal 
 
-#### Activate environtment:
-- conda create -n Fin_Lab python=3.6
+#### Activate environtment and link your environment with Jupyter:
 
+        conda create -n Fin_Lab python=3.6
 
-- conda activate Fin_Lab 
+        conda activate Fin_Lab 
 
-#### Link your environment with Jupyter: 
-- pip install ipykernel
-
-
-- python -m ipykernel install --user --name=Fin_Lab
-
+        pip install ipykernel
+        
+        python -m ipykernel install --user --name=Fin_Lab
 
 
 ## 3. Install Packages
 
 ### Core Data Analytics
 
-numpy
+        numpy
+        
 - Matrix operations
 
-scipy
+        scipy
+        
 - Scientific operations
 
-pandas
+        pandas
+        
 - DataFrame operations
 
-statsmodels
+        statsmodels
+        
 - Statistical models
 
-matplotlib
+        matplotlib
+        
 - Data visualization
 
 #### Finance
 
-pandas_datareader
+        pandas_datareader
+        
 - Reading financial data from the web
 
-yfinance
+        yfinance
+        
 - yahoo finance web scraper 
 
-arch
+        arch
+        
 - Volatility modelling
 
-cvxopt
+        cvxopt
+        
 - Core optimization
 
-cvxpy
+        cvxpy
+        
 - Wrapper to "nicely" interface into cvxopt
 
-prophet
+        prophet
+        
 - Facebook's timeseries forecasting tool
 
 ### Data Visualization
 
-
-seaborn
+        seaborn
+        
 - Colorful data visualization
 
-bokeh
+        bokeh
+        
 - Interactive data visualization
 
-geoplotlib
+        geoplotlib
+        
 - Create maps and geographical visualization
 
-Altair
+        Altair
+        
 - New framework for plotting graphics
 
-plotnine
+        plotnine
+        
 - Similar to R's ggplot2 using grammer of graphics
 
 ### Machine & Deep Learning
 
-scikit-learn
+        scikit-learn
+        
 - Core machine learning package
 
-xgboost
+        xgboost
+        
 - The first publicly available gradient boosting package. Released by Tianqi Chen (University of Washington, Seattle)
 
-lightgbm
+        lightgbm
+        
 - Gradient Boosted Decision Trees package (Microsoft)
 
-catboost
+        catboost
+        
 - Gradient Boosting Decision Trees package (Yandex)
 
-keras
+        keras
+        
 - High-level neural networks API
 
-Tensorflow
+        Tensorflow
+        
 - Deep learning package from Google
 
 ### Natural language processing (NLP)
 
-Loughran-McDonald sentiment word lists to perform sentiment analysis
+Loughran-McDonald sentiment word lists to perform sentiment analysis (csv_file)
 - https://drive.google.com/file/d/12ECPJMxV2wSalXG8ykMmkpa1fq_ur0Rf/view
 
-nltk
+        nltk
 - General NLP tasks
 
-textblog
+        textblog
 - Creating NLP prototypes quickly
 
-gensim
+        gensim
 - NLP applications for topic modelling, document similarity, etc.
 
-scrapy
+        scrapy
 - Web scraping
 
-spacy
+        spacy
 - Production-level NLP library
 
-#### Packages from github:
+### Install Packages from GitHub:
 
-- git clone https://github.com/piEsposito/blitz-bayesian-deep-learning.git
-- cd blitz-bayesian-deep-learning
-- pip install .
+- blitz
+
+        git clone https://github.com/piEsposito/blitz-bayesian-deep-learning.git
+        cd blitz-bayesian-deep-learning
+        pip install .
+        
+- pyfolio
+
+        git clone https://github.com/quantopian/pyfolio
+        cd pyfolio
+        pip install .
 
 #### Favourite JupyterLab extensions
 
-See JupyterLab extensions for more details and GitHub for a full list of available extensions for JupyterLab.
 
-Install nodejs
+- nodejs
 
-- $ conda install -c conda-forge nodejs
+        conda install -c conda-forge nodejs
 
 
 You can install plugins in Jupyter lab by clicking the jigsaw icon on the menu bar on the menu bar on the right of the editor.
 
 
-Extension name:
-
-toc
 - Table of contents
 
-jupyterlab_variableInspector
+        toc
+        
 - Variable inspector in Jupyter Lab
 
-jupyterlab_nbmetadata
+        jupyterlab_variableInspector
+        
 - Allows you to edit the notebook metadata
 
-jupyterlab_go_to_definition
+        jupyterlab_nbmetadata
+        
 - Jump to definition of a variable or function in JupyterLab notebook and file editor
 
-Installing Jupyter notebook extensions
-- $ conda install -c conda-forge jupyter_contrib_nbextensions
+        jupyterlab_go_to_definition
+
+
+- Installing Jupyter notebook extensions
+        
+        conda install -c conda-forge jupyter_contrib_nbextensions
