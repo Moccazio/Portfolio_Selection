@@ -1,4 +1,4 @@
-# Fin_Lab
+# Max_Lab
 
 ## Setup
 
