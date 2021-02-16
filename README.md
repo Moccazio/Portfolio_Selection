@@ -33,119 +33,131 @@ https://docs.anaconda.com/anaconda/install/linux/
 
 ### Core Data Analytics
 
+#### Matrix operations
+
         numpy
         
-- Matrix operations
+#### Scientific operations
 
         scipy
         
-- Scientific operations
+#### DataFrame operations
 
         pandas
         
-- DataFrame operations
+#### Statistical models
 
         statsmodels
         
-- Statistical models
+#### Data visualization       
 
         matplotlib
-        
-- Data visualization
 
-#### Finance
+### Finance
+
+#### Reading financial data from the web
 
         pandas_datareader
         
-- Reading financial data from the web
+#### Web scraper for yahoo finance
 
         yfinance
-        
-- yahoo finance web scraper 
 
-        arch
+#### Finance database for industry data
+
+       FinanceDatabase
+       
+#### Volatility modelling
         
-- Volatility modelling
+        arch
+
+#### Core optimization
 
         cvxopt
-        
-- Core optimization
+ 
+#### Wrapper to nicely interface into cvxopt
 
         cvxpy
         
-- Wrapper to "nicely" interface into cvxopt
+#### Facebook's timeseries forecasting tool        
 
         prophet
-        
-- Facebook's timeseries forecasting tool
 
 ### Data Visualization
 
+#### Colorful data visualization
+
         seaborn
-        
-- Colorful data visualization
+
+#### Interactive data visualization
 
         bokeh
-        
-- Interactive data visualization
+
+#### Create maps and geographical visualization
 
         geoplotlib
         
-- Create maps and geographical visualization
+#### New framework for plotting graphics
 
         Altair
         
-- New framework for plotting graphics
+#### Similar to R's ggplot2 using grammer of graphics
 
         plotnine
-        
-- Similar to R's ggplot2 using grammer of graphics
+       
 
 ### Machine & Deep Learning
 
+#### Core machine learning package
+
         scikit-learn
         
-- Core machine learning package
+#### The first publicly available gradient boosting package. Released by Tianqi Chen (University of Washington, Seattle)
 
         xgboost
         
-- The first publicly available gradient boosting package. Released by Tianqi Chen (University of Washington, Seattle)
+#### Gradient Boosted Decision Trees package (Microsoft)
 
         lightgbm
         
-- Gradient Boosted Decision Trees package (Microsoft)
+#### Gradient Boosting Decision Trees package (Yandex)
 
         catboost
         
-- Gradient Boosting Decision Trees package (Yandex)
+#### High-level neural networks API
 
         keras
-        
-- High-level neural networks API
+
+#### Deep learning package from Google
 
         Tensorflow
         
-- Deep learning package from Google
 
 ### Natural language processing (NLP)
 
-Loughran-McDonald sentiment word lists to perform sentiment analysis (csv_file)
-- https://drive.google.com/file/d/12ECPJMxV2wSalXG8ykMmkpa1fq_ur0Rf/view
+#### Loughran-McDonald sentiment word lists to perform sentiment analysis (csv_file)
+
+        https://drive.google.com/file/d/12ECPJMxV2wSalXG8ykMmkpa1fq_ur0Rf/view
+
+#### General NLP tasks
 
         nltk
-- General NLP tasks
+        
+#### Creating NLP prototypes quickly
 
         textblog
-- Creating NLP prototypes quickly
+        
+#### NLP applications for topic modelling, document similarity, etc.
 
         gensim
-- NLP applications for topic modelling, document similarity, etc.
+
+#### Web scraping
 
         scrapy
-- Web scraping
+
+#### Production-level NLP library
 
         spacy
-- Production-level NLP library
 
 ### Install Packages from GitHub:
 
@@ -161,10 +173,10 @@ Loughran-McDonald sentiment word lists to perform sentiment analysis (csv_file)
         cd pyfolio
         pip install .
 
-#### Favourite JupyterLab extensions
+### Favourite JupyterLab extensions
 
 
-- nodejs
+#### nodejs
 
         conda install -c conda-forge nodejs
 
@@ -172,23 +184,23 @@ Loughran-McDonald sentiment word lists to perform sentiment analysis (csv_file)
 You can install plugins in Jupyter lab by clicking the jigsaw icon on the menu bar on the menu bar on the right of the editor.
 
 
-- Table of contents
+#### Table of contents
 
         toc
         
-- Variable inspector in Jupyter Lab
+#### Variable inspector in Jupyter Lab
 
         jupyterlab_variableInspector
         
-- Allows you to edit the notebook metadata
+#### Allows you to edit the notebook metadata
 
         jupyterlab_nbmetadata
         
-- Jump to definition of a variable or function in JupyterLab notebook and file editor
+#### Jump to definition of a variable or function in JupyterLab notebook and file editor
 
         jupyterlab_go_to_definition
 
 
-- Installing Jupyter notebook extensions
+#### Installing Jupyter notebook extensions
         
         conda install -c conda-forge jupyter_contrib_nbextensions
