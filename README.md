@@ -34,7 +34,7 @@ https://docs.anaconda.com/anaconda/install/linux/
 
 ## 3. Install Packages
 
-#### Core data analytics
+### Core Data Analytics
 
 numpy
 - Matrix operations
@@ -71,7 +71,7 @@ cvxpy
 prophet
 - Facebook's timeseries forecasting tool
 
-#### Data visualization
+### Data Visualization
 
 
 seaborn
@@ -89,8 +89,7 @@ Altair
 plotnine
 - Similar to R's ggplot2 using grammer of graphics
 
-#### Machine & deep learning
-
+### Machine & Deep Learning
 
 scikit-learn
 - Core machine learning package
@@ -110,7 +109,10 @@ keras
 Tensorflow
 - Deep learning package from Google
 
-#### Natural language processing (NLP)
+### Natural language processing (NLP)
+
+Loughran-McDonald sentiment word lists to perform sentiment analysis
+- https://drive.google.com/file/d/12ECPJMxV2wSalXG8ykMmkpa1fq_ur0Rf/view
 
 nltk
 - General NLP tasks
@@ -141,10 +143,6 @@ Install nodejs
 
 - $ conda install -c conda-forge nodejs
 
-Installing Jupyterlab extensions in Linux as follows:
-
-- $ jupyter labextension install @jupyterlab/<EXT_NAME>
-- $ jupyter labextension install jupyterlab_nbmetadata
 
 You can install plugins in Jupyter lab by clicking the jigsaw icon on the menu bar on the menu bar on the right of the editor.
 
