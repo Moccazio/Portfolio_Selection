@@ -1,4 +1,4 @@
-# Fin_Lab
+# Portfolio_Selection
 
 ## Setup
 
@@ -20,13 +20,13 @@ https://docs.anaconda.com/anaconda/install/linux/
 
 #### Activate environtment and link your environment with Jupyter:
 
-        conda create -n Fin_Lab python=3.6
+        conda create -n Portfolio_Selection python=3.6
 
-        conda activate Fin_Lab 
+        conda activate Portfolio_Selection
 
         pip install ipykernel
         
-        python -m ipykernel install --user --name=Fin_Lab
+        python -m ipykernel install --user --name=Portfolio_Selection
 
 
 ## 3. Install Packages
