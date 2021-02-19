@@ -1,5 +1,7 @@
 # Portfolio_Selection
 
+Modern Portfolio Theory (MPT) studies the tradeoff between return and risk. The risk of a portfolio is determined by not only the variance but also the correlations among assets. For a given risk, a rational investor would prefer an allocation with a higher expected returns; On the other hand, for a given return, he or she would prefer the portfolio with a lower risk level.
+
 ## Setup
 
 ## 1. Install Anaconda
